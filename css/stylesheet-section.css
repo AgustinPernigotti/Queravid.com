@@ -1,0 +1,36 @@
+/* SECTION */
+
+.background{
+    background-color: rgb(231, 231, 231);
+}
+
+.container-section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.container-section h1{
+    text-align: center;
+}
+
+.container-section h2{
+    text-align: center;
+}
+
+/* SPECIFICATIONS */
+.flex-item-specifications{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    flex-grow: 4;
+}
+
+.flex-item-specifications>div{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.flex-item-specifications>div>h3{
+    text-align: center;
+}
