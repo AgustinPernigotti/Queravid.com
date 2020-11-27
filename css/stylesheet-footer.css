@@ -1,0 +1,59 @@
+/* FOOTER */
+
+/* .flex-item-container{
+    margin: 0%;
+} */
+
+.flex-item-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: #000000;
+}
+
+.flex-item-social{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-facebook{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+footer h3{
+    color: white;
+    margin-top: 10px;
+}
+
+.copyright p{
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.payment-methods{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.payment-methods img{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.payment-methods img{
+    width: 75px;
+    margin-top: 16px;
+}

@@ -1,0 +1,41 @@
+/* SECTION */
+
+section h1{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 45px;
+}
+
+section h2{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30px;
+}
+
+section h3{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+}
+
+section p{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}
+
+section p>span{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* FOOTER */
+
+footer h3{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+footer p{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+footer a{
+    font-family: 'Noto Sans HK', sans-serif;
+}

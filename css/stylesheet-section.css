@@ -7,7 +7,8 @@
 .container-section{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container-section h1{
@@ -18,19 +19,21 @@
     text-align: center;
 }
 
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 /* SPECIFICATIONS */
 .flex-item-specifications{
     display: flex;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
-    flex-grow: 4;
+    justify-content: space-around;
+    margin-left: auto;
+    /* flex-grow: 1; */
 }
 
 .flex-item-specifications>div{
     margin-left: 16px;
     margin-right: 16px;
-}
-
-.flex-item-specifications>div>h3{
-    text-align: center;
 }
