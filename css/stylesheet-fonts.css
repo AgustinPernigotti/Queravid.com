@@ -1,3 +1,20 @@
+/* HEADER NAV BAR */
+
+.box1-header a{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 12px;
+}
+
+.box3-header a{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+}
+
+.container-header p{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+}
+
 /* SECTION */
 
 section h1{
@@ -29,7 +46,7 @@ section p>span{
 /* FOOTER */
 
 footer h3{
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'MuseoModerno', cursive;
 }
 
 footer p{

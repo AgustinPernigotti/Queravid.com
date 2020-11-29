@@ -2,6 +2,7 @@
 
 .background{
     background-color: rgb(231, 231, 231);
+    padding-bottom: 70px;
 }
 
 .container-section{
@@ -29,11 +30,32 @@
 .flex-item-specifications{
     display: flex;
     justify-content: space-around;
-    margin-left: auto;
-    /* flex-grow: 1; */
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
 }
 
 .flex-item-specifications>div{
     margin-left: 16px;
     margin-right: 16px;
+    width: 230px;
+    height: 269px;
+}
+
+.flex-items-specifications2{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-items-specifications2:nth-child(1){
+    margin: 10px;
+}
+
+.flex-items-specifications2 p{
+    margin-right: 50px;
+}
+
+.flex-items-specifications2 div img{
+    width: 300px;
+    margin-bottom: 16px;
 }
