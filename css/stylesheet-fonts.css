@@ -56,3 +56,18 @@ footer p{
 footer a{
     font-family: 'Noto Sans HK', sans-serif;
 }
+
+/* CONTACT US FONTS */
+
+.container-forms label{
+    font-family: 'MuseoModerno', cursive;
+}
+
+.container-forms ::placeholder{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+
+.flex-item-submit input{
+    font-family: 'MuseoModerno', cursive;
+}

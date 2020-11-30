@@ -1,0 +1,10 @@
+/* ABOUT */
+
+.about-main-image{
+    display: flex;
+    width: 100%;
+}
+
+.about-main-image img{
+    width: 100%;
+}
