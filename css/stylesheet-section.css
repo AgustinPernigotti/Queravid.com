@@ -60,6 +60,70 @@
 }
 
 
+/* CONTACT US SECTION */
+
+.container-forms{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.container-forms{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#input-responsive{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 3px solid rgb(127, 139, 248);
+    border-radius: 30px;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#input-responsive:focus{
+    background-color: rgb(202, 226, 235);
+    border: 3px solid rgba(12, 129, 12, 0.938);
+}
+
+textarea{
+    resize: none;
+}
+
+.flex-item-submit{
+    display: flex;
+}
+
+.container-forms input[type=submit]{
+    padding: 12px;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.container-forms input[type=submit]:hover{
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
 
 /* FULL SCREEN */
 @media screen and (min-width: 920px){
