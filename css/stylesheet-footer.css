@@ -10,6 +10,10 @@ footer{
     background: linear-gradient(to left, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#footer-div-padding{
+    padding: 10px;
+}
+
 footer h3{
     color: white;
     margin-top: 0px;
@@ -43,7 +47,7 @@ footer a{
     margin: 16px
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 920px){
     .flex-item-footer{
         display: flex;
         justify-content: space-around;
@@ -89,8 +93,8 @@ footer a{
     
     .payment-methods{
         display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
     }
     
     .payment-methods img{
