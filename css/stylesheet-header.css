@@ -16,6 +16,7 @@ body{
 .box2-header{
     display: flex;
     justify-content: center;
+    
 }
 
 .box2-header>a>img{
